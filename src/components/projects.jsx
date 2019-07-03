@@ -14,21 +14,22 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/logo.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
-											<span>Website</span>
-											<p className="icon">
+											<h3><i className="icon-chrome"></i> <a href="http://upost-env.z9ame8dp78.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">UPOST (in Progress)</a></h3>
+											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/upost" target="_blank" rel="noopener noreferrer">Source Code</a></h3>
+											<small>A personalizable event service platform for the University of Calgary that increases event awareness, while providing an incentivized engagement strategy to eliminate event food waste on campus.</small>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
 									<div className="desc">
 										<div className="con">
@@ -102,13 +103,13 @@ export default class Projects extends Component {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
-						<div className="row">
+						{/* <div className="row">
 							<div className="col-md-12 animate-box">
 								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</section>
       </div>
