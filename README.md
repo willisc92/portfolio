@@ -8,4 +8,4 @@ Source Template from: https://github.com/dbarochiya/me
   - run `npm install` to instal node modules
   - run `npm start` to start the service on `localhost:3000`
     
-##### deployed app : https://dbarochiya.github.io/me/
+##### deployed app : https://willisc92.github.io/portfolio/
