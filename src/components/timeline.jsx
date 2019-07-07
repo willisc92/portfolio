@@ -22,7 +22,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>MEng Software Student at University of Calgary <span>2018-2019</span></h2>
-                        <p>I recently decided to return to school to gain some skills in the Software domain.  Over the course of a year, I've learned how to apply the fundamentals of:</p>
+                        <p>I recently decided to return to school to gain some skills in the software domain.  Over the course of a year, I've learned how to apply the fundamentals of:</p>
                         <ul>
                           <li>
                             Object Oriented Programming
@@ -37,7 +37,7 @@ export default class Timeline extends Component {
                             Supervised and Unsupervised Learning
                           </li>
                           <li>
-                            Big Data processing
+                            Big Data Processing
                           </li>
                           <li>
                             Software Requirements and Engineering

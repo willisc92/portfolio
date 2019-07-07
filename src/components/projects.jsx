@@ -20,7 +20,11 @@ export default class Projects extends Component {
 										<span>Website</span>
 											<h3><i className="icon-chrome"></i> <a href="http://upost-env.z9ame8dp78.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">UPOST (in Progress)</a></h3>
 											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/upost" target="_blank" rel="noopener noreferrer">Source Code</a></h3>
-											<small>A personalizable event service platform for the University of Calgary that increases event awareness, while providing an incentivized engagement strategy to eliminate event food waste on campus.</small>
+											<small><ul>
+											<li>A personalizable event service platform for the University of Calgary that increases event awareness, while providing an incentivized engagement strategy to eliminate event food waste on campus.</li>
+											<li>Built with React.JS, Django, and MySQL.</li>
+											<li>Deployed with AWS.</li>
+											  </ul></small>
 											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
@@ -37,7 +41,28 @@ export default class Projects extends Component {
 											<span>Animation</span>
 											<h3><i className="icon-chrome"></i> <a href="https://willisc92.github.io/Tesla-Visualization/" target="_blank" rel="noopener noreferrer">Tesla D3 Visualization</a></h3>
 											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/Tesla-Visualization" target="_blank" rel="noopener noreferrer">Source Code</a></h3>
-											<small>A D3 visualization to visualize the sentiment regarding Tesla around the world over a couple of months.</small>
+											<small><ul><li>A visualization to visualize the sentiment regarding Tesla around the world over a couple of months and the reflection in stock price.</li>
+											<li>Built with Javascript and D3.</li></ul></small>
+												{/* <span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{backgroundImage: 'url(images/twitter.png)'}}>
+									<div className="desc">
+										<div className="con">
+											<span>Machine Learning and Data Processing</span>
+											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/Twitter_sleep_stress.git" target="_blank" rel="noopener noreferrer">Twitter Sleep-Stress Analysis</a></h3>
+											<small>
+											<ul>
+											<li>Performed pre-processing of three months of Twitter data in order to perform supervised and unsupervised machine learning with the goal of determining any relationships between tweets indicating sleep and stress on Twitter.</li>
+											<li>Built with Python, Apache Spark, and R.</li>
+											</ul>
+											</small>
+
 												{/* <span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}
