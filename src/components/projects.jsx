@@ -20,16 +20,13 @@ export default class Projects extends Component {
 										<span>Website</span>
 											<h3><i className="icon-chrome"></i> <a href="http://upost-env.z9ame8dp78.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">UPOST (in Progress)</a></h3>
 											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/upost" target="_blank" rel="noopener noreferrer">Source Code</a></h3>
-											<small><ul>
-											<li>A personalizable event service platform for the University of Calgary that increases event awareness, while providing an incentivized engagement strategy to eliminate event food waste on campus.</li>
-											<li>Built with React.JS, Django, and MySQL.</li>
-											<li>Deployed with AWS.</li>
-											  </ul></small>
-											{/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
+											<small>
+												<ul>
+													<li>A personalizable event service platform for the University of Calgary that increases event awareness, while providing an incentivized engagement strategy to eliminate event food waste on campus.</li>
+													<li>Built with React.JS, Django, and MySQL.</li>
+													<li>Deployed with AWS.</li>
+											  	</ul>
+											</small>
 										</div>
 									</div>
 								</div>
@@ -41,11 +38,12 @@ export default class Projects extends Component {
 											<span>Animation</span>
 											<h3><i className="icon-chrome"></i> <a href="https://willisc92.github.io/Tesla-Visualization/" target="_blank" rel="noopener noreferrer">Tesla D3 Visualization</a></h3>
 											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/Tesla-Visualization" target="_blank" rel="noopener noreferrer">Source Code</a></h3>
-											<small><ul><li>A visualization to visualize the sentiment regarding Tesla around the world over a couple of months and the reflection in stock price.</li>
-											<li>Built with Javascript and D3.</li></ul></small>
-												{/* <span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}
+											<small>
+												<ul>
+													<li>A visualization to visualize the sentiment regarding Tesla around the world over a couple of months and the reflection in stock price.</li>
+													<li>Built with Javascript and D3.</li>
+												</ul>
+											</small>
 										</div>
 									</div>
 								</div>
@@ -57,85 +55,16 @@ export default class Projects extends Component {
 											<span>Machine Learning and Data Processing</span>
 											<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/Twitter_sleep_stress.git" target="_blank" rel="noopener noreferrer">Twitter Sleep-Stress Analysis</a></h3>
 											<small>
-											<ul>
-											<li>Performed pre-processing of three months of Twitter data in order to perform supervised and unsupervised machine learning with the goal of determining any relationships between tweets indicating sleep and stress on Twitter.</li>
-											<li>Built with Python, Apache Spark, and R.</li>
-											</ul>
+												<ul>
+													<li>Performed pre-processing of three months of Twitter data in order to perform supervised and unsupervised machine learning with the goal of determining any relationships between tweets indicating sleep and stress on Twitter.</li>
+													<li>Built with Python, Apache Spark, and R.</li>
+												</ul>
 											</small>
-
-												{/* <span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}
 										</div>
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<span>Illustration</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
-											<span>Application</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
-											<span>Graphic, Logo</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div> */}
 						</div>
-						{/* <div className="row">
-							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
-							</div>
-						</div> */}
 					</div>
 				</section>
       </div>

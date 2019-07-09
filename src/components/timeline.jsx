@@ -24,27 +24,27 @@ export default class Timeline extends Component {
                         <h2>MEng Software Student at University of Calgary <span>2018-2019</span></h2>
                         <p>I recently decided to return to school to gain some skills in the software domain.  Over the course of a year, I've learned how to apply the fundamentals of:</p>
                         <ul>
-                          <li>
-                            Object Oriented Programming
-                          </li>
-                          <li>
-                            Full Stack Web Development
-                          </li>
-                          <li>
-                            Data Structures and Algorithms
-                          </li>
-                          <li>
-                            Supervised and Unsupervised Learning
-                          </li>
-                          <li>
-                            Big Data Processing
-                          </li>
-                          <li>
-                            Software Requirements and Engineering
-                          </li>
-                          <li>
-                            Software Testing
-                          </li>
+                            <li>
+                              Object Oriented Programming
+                            </li>
+                            <li>
+                              Full Stack Web Development
+                            </li>
+                            <li>
+                              Data Structures and Algorithms
+                            </li>
+                            <li>
+                              Supervised and Unsupervised Learning
+                            </li>
+                            <li>
+                              Big Data Processing
+                            </li>
+                            <li>
+                              Software Requirements and Engineering
+                            </li>
+                            <li>
+                              Software Testing
+                            </li>
                           </ul>
                       </div>
                     </div>
