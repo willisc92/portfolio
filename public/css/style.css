@@ -12,8 +12,6 @@
 *
 * ======================================================= */
 body {
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
