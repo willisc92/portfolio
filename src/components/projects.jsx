@@ -18,7 +18,7 @@ export default class Projects extends Component {
 								<div className="desc">
 									<div className="con">
 									<span>Website</span>
-										<h3><i className="icon-chrome"></i> <a href="https://upostwebsite.com/" target="_blank" rel="noopener noreferrer">UPOST (in Progress)</a></h3>
+										<h3><i className="icon-chrome"></i> <a href="https://www.upostwebsite.com/" target="_blank" rel="noopener noreferrer">UPOST (in Progress)</a></h3>
 										<h3><i className="icon-github"></i> <a href ="https://github.com/willisc92/upost" target="_blank" rel="noopener noreferrer">Source Code</a></h3>
 										<small>
 											<ul>
