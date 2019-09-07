@@ -46,7 +46,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>I have experience in full stack web development using React, HTML, CSS, and Django</p>
+                    <p>I have experience in full stack web development using React.JS, HTML, CSS, and Django</p>
                 </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Object Oriented Programming</h3>
-                    <p>Fundamentals of OOP in Java, C++, and Python</p>
+                    <p>Fundamentals of OOP in Java and Python</p>
                 </div>
                 </div>
             </div>

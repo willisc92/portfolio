@@ -41,7 +41,7 @@ export default class Projects extends Component {
 										<small>
 											<ul>
 												<li>A visualization to visualize the sentiment regarding Tesla around the world over a couple of months and the reflection in stock price.</li>
-												<li>Built with Javascript and D3.</li>
+												<li>Built with JavaScript and D3.</li>
 											</ul>
 										</small>
 									</div>
